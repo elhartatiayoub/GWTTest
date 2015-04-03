@@ -1,0 +1,33 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:gwt='urn:import:com.google.gwt.user.client.ui'>
+    <!--<gwt:FlowPanel>-->
+        <!--<gwt:Label ui:field="message" text="click this =>"/>-->
+        <!--<gwt:Button ui:field="btn" text=">click me!!" />-->
+    <!--</gwt:FlowPanel>-->
+    <!--<gwt:HTMLPanel>-->
+        <!--<gwt:Label ui:field="message" text="click this =>"/>-->
+        <!--<gwt:Button ui:field="btn" text=">click me!!" />-->
+    <!--</gwt:HTMLPanel>-->
+    <!--<gwt:LayoutPanel>-->
+    <!--&lt;!&ndash; No constraints causes the layer to fill the parent &ndash;&gt;-->
+    <!--<gwt:layer left='10%' right='25%' top='50%' height='5em'>-->
+        <!--<gwt:Label ui:field="message" text="click this =>"/>-->
+    <!--</gwt:layer>-->
+    <!--&lt;!&ndash; Position horizontally 25% from each edge;-->
+         <!--Vertically 4px from the top and 10em tall. &ndash;&gt;-->
+    <!--<gwt:layer left='25%' right='25%' top='50%' height='5em'>-->
+        <!--<gwt:Button ui:field="btn" text=">click me!!" />-->
+    <!--</gwt:layer>-->
+    <!--</gwt:LayoutPanel> &lt;!&ndash;change the RootPanel!!&ndash;&gt;-->
+    <gwt:DockLayoutPanel unit='EM' height="100px">
+        <gwt:west size="10">
+            <gwt:Label ui:field="message" text="click this =>"/>
+        </gwt:west>
+        <gwt:east size="90">
+            <gwt:Button ui:field="btn" text=">click me!!" />
+
+        </gwt:east>
+        
+    </gwt:DockLayoutPanel>
+
+</ui:UiBinder>

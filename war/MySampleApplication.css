@@ -1,0 +1,27 @@
+/** Add css rules here for your application. */
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+body, td, a, div, .p {
+    font-family: arial, sans-serif
+}
+.gwt-PopupPanel {
+    border: 3px solid #000000;
+    padding: 3px;
+    background: white;
+}
+
+.gwt-PopupPanelGlass {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+
+.gwt-PopupPanel .popupContent {
+    border: none;
+    padding: 3px;
+    background: gray;
+}

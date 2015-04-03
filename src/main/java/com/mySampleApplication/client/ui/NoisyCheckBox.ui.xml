@@ -1,0 +1,9 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:gwt='urn:import:com.google.gwt.user.client.ui'>
+    <gwt:HorizontalPanel spacing="10">
+        <gwt:Label ui:field="text" text="Check that checkBox for me"/>
+        <gwt:CheckBox ui:field="check1" text="check that "/>
+        <gwt:CheckBox ui:field="check2" text="check this "/>
+    </gwt:HorizontalPanel>
+
+</ui:UiBinder>

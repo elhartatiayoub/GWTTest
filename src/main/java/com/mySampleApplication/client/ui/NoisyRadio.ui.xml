@@ -1,0 +1,13 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:gwt='urn:import:com.google.gwt.user.client.ui'>
+    <gwt:HorizontalPanel spacing="10">
+        <gwt:Label ui:field="text" text="Choose a radio stati.. euuuh Button!"/>
+        <gwt:VerticalPanel>
+                <gwt:RadioButton name="radios" ui:field="radio1" text="Midi 1"/>
+                <gwt:RadioButton name="radios" ui:field="radio2" text="Aswat"/>
+                <gwt:RadioButton name="radios" ui:field="radio3" text="2M"/>
+                <gwt:RadioButton name="radios" ui:field="radio4" text="Hit Radio"/>
+        </gwt:VerticalPanel>
+    </gwt:HorizontalPanel>
+
+</ui:UiBinder>

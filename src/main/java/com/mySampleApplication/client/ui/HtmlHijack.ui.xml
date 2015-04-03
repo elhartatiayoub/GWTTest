@@ -1,0 +1,13 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:gwt='urn:import:com.google.gwt.user.client.ui'>
+
+    <gwt:VerticalPanel spacing="15">
+        <gwt:TextBox ui:field="input" text="Hijack this!"/>
+        <gwt:HorizontalPanel>
+            <gwt:Button ui:field="safe" text="safe"/>
+            <gwt:Button ui:field="unsafe" text="unsafe"/>
+        </gwt:HorizontalPanel>
+        <gwt:HTML ui:field="output" text="try to see"/>
+    </gwt:VerticalPanel>
+
+</ui:UiBinder>

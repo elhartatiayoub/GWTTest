@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="CellGames:war exploded2">
+    <output-path>$PROJECT_DIR$/out/artifacts/CellGames_war_exploded2</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="CellGames/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="CellGames" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Documents/gwt-2.7.0/gwt-servlet.jar" />
+        </element>
+      </element>
+      <element id="gwt-compiler-output" facet="CellGames/gwt/GWT" />
+    </root>
+  </artifact>
+</component>

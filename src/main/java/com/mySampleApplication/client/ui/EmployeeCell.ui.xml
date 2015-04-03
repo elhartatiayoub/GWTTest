@@ -1,0 +1,24 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+        >
+    <ui:with field="employee" type="com.mySampleApplication.client.model.Employee"/>
+    <div style="border:1px; margin=5px">
+        <table>
+            <tbody>
+                <tr>
+                    <td rowspan="3">
+                        <img src="http://samples.gwtproject.org/samples/Showcase/showcase/clear.cache.gif"
+                             border="0"/>
+                    </td>
+                    <td style="font-size:95%;"><ui:text from='{employee.getNom}'/> <ui:text from='{employee.getPrenom}'/></td>
+                </tr>
+                <tr>
+                    <td><ui:text from='{employee.getCin}'/></td>
+                </tr>
+                <tr>
+                    <td><ui:text from='{employee.getDateNaiss.toString}'/></td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+</ui:UiBinder>
